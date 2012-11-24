@@ -1,0 +1,16 @@
+Flask==0.9
+Flask-Assets==0.8
+Flask-RESTful==0.1.2
+Flask-SQLAlchemy==0.16
+Flask-Script==0.5.1
+Jinja2==2.6
+SQLAlchemy==0.7.9
+URLObject==2.1.0
+Werkzeug==0.8.3
+ipython==0.13.1
+psycopg2==2.4.5
+pyScss==1.1.4
+readline==6.2.4.1
+webassets==0.8
+wsgiref==0.1.2
+yuicompressor==2.4.7

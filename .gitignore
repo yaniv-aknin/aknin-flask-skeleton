@@ -1,0 +1,5 @@
+application/static/.webassets-cache
+application/static/gen
+.venv
+*.pyc
+runcommands.local.sh

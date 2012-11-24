@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block head %}
+    <link rel="shortcut icon" type="image/x-icon" href="/static/img/favicon.ico">
+    <script type="text/javascript" charset="utf-8" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    {% if config.DEBUG %}
+        <script type="text/javascript" src="/static/js/vendor/coffee-script.min.js"></script>
+    {% endif %}
+{% endblock %}

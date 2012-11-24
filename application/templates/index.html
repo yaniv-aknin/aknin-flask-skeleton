@@ -1,0 +1,14 @@
+{% extends "main.html" %}
+
+{% block title %}Welcome{% endblock %}
+{% block head %}
+    {{ super() }}
+    {% assets "base.js" %}
+        <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+    {% endassets %}
+    {% assets "base.css" %}
+        <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+    {% endassets %}
+{% endblock %}
+
+{% block body %}<h1>Welcome</h1>{% endblock %}
